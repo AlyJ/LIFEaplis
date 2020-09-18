@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122DB93C25125F4800BF285C /* firstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122DB93B25125F4800BF285C /* firstVC.swift */; };
+		122DB93E25125F5A00BF285C /* secondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122DB93D25125F5A00BF285C /* secondVC.swift */; };
+		122DB94025125F6900BF285C /* thirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122DB93F25125F6900BF285C /* thirdVC.swift */; };
 		122E4DED25125D5A00D95F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E4DEC25125D5A00D95F3A /* AppDelegate.swift */; };
 		122E4DEF25125D5A00D95F3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E4DEE25125D5A00D95F3A /* SceneDelegate.swift */; };
-		122E4DF125125D5A00D95F3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E4DF025125D5A00D95F3A /* ViewController.swift */; };
 		122E4DF425125D5A00D95F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122E4DF225125D5A00D95F3A /* Main.storyboard */; };
 		122E4DF625125D5B00D95F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122E4DF525125D5B00D95F3A /* Assets.xcassets */; };
 		122E4DF925125D5B00D95F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122E4DF725125D5B00D95F3A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		122DB93B25125F4800BF285C /* firstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstVC.swift; sourceTree = "<group>"; };
+		122DB93D25125F5A00BF285C /* secondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVC.swift; sourceTree = "<group>"; };
+		122DB93F25125F6900BF285C /* thirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdVC.swift; sourceTree = "<group>"; };
 		122E4DE925125D5A00D95F3A /* LIFEaplis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIFEaplis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		122E4DEC25125D5A00D95F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		122E4DEE25125D5A00D95F3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		122E4DF025125D5A00D95F3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		122E4DF325125D5A00D95F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		122E4DF525125D5B00D95F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		122E4DF825125D5B00D95F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				122E4DEC25125D5A00D95F3A /* AppDelegate.swift */,
+				122DB93F25125F6900BF285C /* thirdVC.swift */,
+				122DB93B25125F4800BF285C /* firstVC.swift */,
+				122DB93D25125F5A00BF285C /* secondVC.swift */,
 				122E4DEE25125D5A00D95F3A /* SceneDelegate.swift */,
-				122E4DF025125D5A00D95F3A /* ViewController.swift */,
 				122E4DF225125D5A00D95F3A /* Main.storyboard */,
 				122E4DF525125D5B00D95F3A /* Assets.xcassets */,
 				122E4DF725125D5B00D95F3A /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				122E4DF125125D5A00D95F3A /* ViewController.swift in Sources */,
+				122DB94025125F6900BF285C /* thirdVC.swift in Sources */,
 				122E4DED25125D5A00D95F3A /* AppDelegate.swift in Sources */,
 				122E4DEF25125D5A00D95F3A /* SceneDelegate.swift in Sources */,
+				122DB93E25125F5A00BF285C /* secondVC.swift in Sources */,
+				122DB93C25125F4800BF285C /* firstVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = swift.LIFEaplis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = swift.LIFEaplis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
